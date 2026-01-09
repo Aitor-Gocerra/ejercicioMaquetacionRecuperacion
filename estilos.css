@@ -5,7 +5,7 @@ body {
 }
 /* Layout */
 header {
-    background-color: red;
+    background-color: rgb(246, 189, 237);
     height: 45px;
 }
 section {
@@ -46,7 +46,8 @@ ul {
 }
 li {
     display: inline-block;
-    width: 7.93%; /* (100/1260) x 100 */
+    width: 7.937%; /* 100/1260 */
+    min-width: 100px; /* Minimo para que no se hagan muy pequeños al pasar a porcentaje*/
 }
 a {
     text-decoration: none;
