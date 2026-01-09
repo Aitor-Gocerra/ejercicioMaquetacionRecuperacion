@@ -5,36 +5,42 @@ body {
 }
 /* Layout */
 header {
-    border: 2px solid red;
+    background-color: red;
     height: 45px;
 }
 section {
-    border: 2px solid yellow;
+    background-color: aquamarine;
     margin-left: 20px;
-    width: 780px;
+    width: 780px; /* 780px de ancho + 20px de padding horizontal = 800px */
     height: 400px;
-    float: left;
+    float: left; /* Flota a la izquierda para permitir que aside esté a su lado */
     padding: 0 10px 0 10px;
 }
 aside {
-    border: 2px solid yellowgreen;
+    background-color: blueviolet;
     margin-left: 20px;
     margin-right: 20px;
-    width: 340px;
+    width: 340px; /* 340px + 60px de padding = 400px */
     height: 400px;
     float: left;
     padding: 0 30px;
 }
 footer {
-    border: 2px solid blue;
-    clear: both;
+    background-color: burlywood;
+    height: 100px;
+    clear: both; /* hace que se posicione debajo de los elementos flotantes */
 }
+
+/* 
+    Calculo del ancho total 20px + 800px + 20px + 400px + 20px = 1260px 
+*/
 
 /* Barra de navegacion */
 nav {
     padding-left: 10px;
 }
 ul {
+    /* Elimina márgenes y padding por defecto de las listas */
     margin: 0;
     padding: 0;
 }
@@ -57,13 +63,17 @@ a {
 
 /* Noticias */
 section > p {
-    margin-top: 30px;
+    margin-top: 30px; /* Los párrafos directos de section tienen 30px de margen superior */
 }
 section > form {
     margin-top: 4em;
     padding-left: 70px;
     padding-top: 1em;
     padding-bottom: 1em;
+    background-color: cadetblue;
+}
+form > * { 
+    margin: 1em 0; /* Todos los hijos directos del formulario tienen 1em de margen vertical (arriba y abajo) */
 }
 input[type="text"],
 input[type="email"] {
