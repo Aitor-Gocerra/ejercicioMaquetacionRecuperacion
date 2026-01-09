@@ -1,0 +1,52 @@
+body {
+    width: 1260px;
+    border: 2px solid black;
+    height: 545px;
+}
+header {
+    border: 2px solid red;
+    height: 45px;
+}
+nav {
+    padding-left: 10px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    width: 100px;
+}
+a {
+    text-decoration: none;
+}
+#enlaces {
+    float: left;
+}
+#sesion {
+    float: right;
+}
+#enlaces, #sesion {
+    margin-top: 11px;
+}
+section {
+    border: 2px solid yellow;
+    margin-left: 20px;
+    width: 800px;
+    height: 400px;
+}
+aside {
+    border: 2px solid yellowgreen;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 400px;
+    height: 400px;
+}
+img {
+    width: 150px;
+    height: auto;
+}
+footer {
+    border: 2px solid blue;
+}
