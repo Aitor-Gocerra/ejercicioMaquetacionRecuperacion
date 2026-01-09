@@ -70,6 +70,7 @@ aside {
 img {
     width: 150px;
     height: auto;
+    margin-top: 50px;
 }
 footer {
     border: 2px solid blue;
