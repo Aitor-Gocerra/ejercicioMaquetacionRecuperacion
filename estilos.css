@@ -15,7 +15,7 @@ section {
     width: 780px; /* 780px de ancho + 20px de padding horizontal = 800px */
     height: 400px;
     float: left; /* Flota a la izquierda para permitir que aside esté a su lado */
-    padding: 0 10px 0 10px;
+    padding: 30px 10px 0 10px;
 }
 aside {
     background-color: blueviolet;
@@ -63,14 +63,9 @@ a {
 }
 
 /* Noticias */
-section > p {
-    margin-top: 30px; /* Los párrafos directos de section tienen 30px de margen superior */
-}
 section > form {
     margin-top: 4em;
-    padding-left: 70px;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding: 1em 0 1em 70px;
     background-color: cadetblue;
 }
 form > * { 
@@ -80,12 +75,14 @@ input[type="text"],
 input[type="email"] {
     width: 490px;
     padding-left: 10px;
+    display: block;
 }
 
 input[type="submit"] {
     width: 150px;
     height: 2em;
     background-color: #d8d8d8;
+    display: block;
 }
 
 /* Aside */
