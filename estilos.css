@@ -83,7 +83,7 @@ form > * {
 input[type="text"],
 input[type="email"] {
     width: 69.014%; /* 490/710 - relativo al ancho del form */
-    padding-left: 1.282%; /* 10/780 */
+    padding-left: 1.408%; /* 10/710 */
     display: block;
 }
 
