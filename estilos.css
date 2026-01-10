@@ -15,6 +15,7 @@ section {
     background-color: aquamarine;
     margin-left: 1.59%; /* (20/1260) x 100 */
     width: 61.90%; /* (780/1260) x 100 */
+    margin-top: 2.38%;
     height: 400px;
     float: left; /* Flota a la izquierda para permitir que aside esté a su lado */
     padding: 0 0.79% 0 0.79%; /* (10/1260) x 100 */
@@ -67,14 +68,9 @@ a {
 }
 
 /* Noticias */
-section > p {
-    margin-top: 2.38%; /* Los párrafos directos de section tienen 30px de margen superior */
-}
 section > form {
     margin-top: 4em;
-    padding-left: 5.56%; /* (70/1260) x 100 */
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding: 1em 0 1em 5.56%; /* (70/1260) x 100 */
     background-color: cadetblue;
 }
 form > * { 
