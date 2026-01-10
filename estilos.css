@@ -1,7 +1,10 @@
-body {
+html{
     width: 1260px;
+}
+body {
     border: 2px solid black;
     height: 545px;
+    font-size: 16px;
 }
 /* Layout */
 header {
@@ -15,6 +18,7 @@ section {
     height: 400px;
     float: left; /* Flota a la izquierda para permitir que aside esté a su lado */
     padding: 0 0.79% 0 0.79%; /* (10/1260) x 100 */
+    overflow: scroll;
 }
 aside {
     background-color: blueviolet;
@@ -78,13 +82,15 @@ form > * {
 }
 input[type="text"],
 input[type="email"] {
-    width: 62.821%; /* 490/780 - relativo al ancho de section */
+    width: 69.014%; /* 490/710 - relativo al ancho del form */
     padding-left: 1.282%; /* 10/780 */
+    display: block;
 }
 
 input[type="submit"] {
-    width: 19.231%; /* 150/780 - relativo al ancho de section */
+    width: 21.1267%; /* 150/710 - relativo al ancho del formulario */
     height: 2em;
+    display: block;
     background-color: #d8d8d8;
 }
 
