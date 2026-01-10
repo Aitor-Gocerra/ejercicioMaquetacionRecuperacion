@@ -1,0 +1,93 @@
+body {
+    width: 1260px;
+    border: 2px solid black;
+    height: 545px;
+    font-size: 16px;
+}
+/* Layout */
+header {
+    background-color: red;
+    height: 45px;
+}
+section {
+    background-color: aquamarine;
+    margin-left: 20px;
+    width: 780px; /* 780px de ancho + 20px de padding horizontal = 800px */
+    height: 400px;
+    float: left; /* Flota a la izquierda para permitir que aside esté a su lado */
+    padding: 30px 10px 0 10px;
+}
+aside {
+    background-color: blueviolet;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 340px; /* 340px + 60px de padding = 400px */
+    height: 400px;
+    float: left;
+    padding: 0 30px;
+}
+footer {
+    background-color: burlywood;
+    height: 100px;
+    clear: both; /* hace que se posicione debajo de los elementos flotantes */
+}
+
+/* 
+    Calculo del ancho total 20px + 800px + 20px + 400px + 20px = 1260px 
+*/
+
+/* Barra de navegacion */
+nav {
+    padding-left: 10px;
+}
+ul {
+    /* Elimina márgenes y padding por defecto de las listas */
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    width: 100px;
+}
+a {
+    text-decoration: none;
+}
+#enlaces {
+    float: left;
+}
+#sesion {
+    float: right;
+}
+#enlaces, #sesion {
+    margin-top: 11px;
+}
+
+/* Noticias */
+section > form {
+    margin-top: 4em;
+    padding: 1em 0 1em 70px;
+    background-color: cadetblue;
+}
+form > * { 
+    margin: 1em 0; /* Todos los hijos directos del formulario tienen 1em de margen vertical (arriba y abajo) */
+}
+input[type="text"],
+input[type="email"] {
+    width: 490px;
+    padding-left: 10px;
+    display: block;
+}
+
+input[type="submit"] {
+    width: 150px;
+    height: 2em;
+    background-color: #d8d8d8;
+    display: block;
+}
+
+/* Aside */
+img {
+    width: 150px;
+    height: auto;
+    margin-top: 50px;
+}
