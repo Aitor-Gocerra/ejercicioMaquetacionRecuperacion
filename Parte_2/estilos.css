@@ -9,6 +9,11 @@ header {
     background-color: red;
     height: 45px;
 }
+main {
+    background-color: blue;
+    width: 1260px;
+    display: flow-root;
+}
 section {
     background-color: aquamarine;
     margin-left: 20px;
@@ -29,7 +34,6 @@ aside {
 footer {
     background-color: burlywood;
     height: 100px;
-    clear: both; /* hace que se posicione debajo de los elementos flotantes */
 }
 
 /* 
